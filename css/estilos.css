@@ -1,0 +1,60 @@
+html {
+    font-family: 'segoe UI' , sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+table tr {
+    background-color:antiquewhite;
+    border: 1px solid slateblue;
+    padding: 4px;
+}
+
+table th{
+    padding: 16px;
+    text-align: center;
+    font-size: .85em;
+}
+
+.user-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 30%;
+    margin: 20% auto;
+    text-align: center;
+}
+
+.user-form form input{
+    font-family: 'segoe UI', sans-serif;
+}
+
+.user-form form input[type=text],
+.user-form form input[type=password],
+.user-form form input[type=email]{
+    padding: 8px;
+    border: 2px solid #aaa;
+    border-radius:4px;
+    outline: none;
+    transition:.3s;
+}
+
+.user-form form input[type=text]:focus,
+.user-form form input[type=password]:focus,
+.user-form form input[type=email]:focus{
+    border-color: dodgerblue;
+    box-shadow:0 0 6px 0 dodgerblue;
+}
+
+.user-form form input[type=submit]{
+    border: none;
+    padding: 12px 50px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+}
